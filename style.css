@@ -136,3 +136,15 @@ body {
   transition: all 0.5s ease-in;
   font-size: 12px;
 }
+
+.clockishere {
+  margin: 5 5 5 5;
+}
+
+.searchbarishere {
+  margin: 5 5 5 5;
+}
+
+.timerishere {
+  margin: 5 5 5 5;
+}
