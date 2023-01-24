@@ -15,12 +15,12 @@ html {
 }
 
 html.light {
-  --primary-color: #ebdbca;
+  --primary-color: #000;
   --secondary-color: #4D90FE;
 }
 
 html.light {
-  background-color: #000;
+  background-color: #ebdbca;
   color: var(--primary-color);
 }
 
@@ -113,6 +113,7 @@ body {
 .time {
   font-size: 60px;
   color: #4D90FE;
+  font-style: bold;
 }
 
 .date {
@@ -120,6 +121,7 @@ body {
   font-size: 14px;
   letter-spacing: 0.3px;
   text-transform: uppercase;
+  font-style: bold;
 }
 
 .date .circle {
