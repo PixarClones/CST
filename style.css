@@ -1,4 +1,27 @@
 @import url('https://fonts.googleapis.com/css?family=Heebo:300&display=swap');
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-color: #fff;
+  --secondary-color: darkgrey;
+  background-color: black;
+}
+
+html {
+  transition: all 0.5s ease-in;
+}
+
+html.light {
+  --primary-color: black;
+  --secondary-color: darkgrey;
+}
+
+html.light {
+  background-color: #fff;
+  color: var(--primary-color);
+}
 
 body {
   font-family: 'Heebo', sans-serif;
@@ -7,7 +30,6 @@ body {
   justify-content: center;
   height: 100vh;
   overflow: hidden;
-  background-color: black;
 }
 
 .toggle {
