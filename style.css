@@ -23,6 +23,29 @@ html.light {
   color: var(--primary-color);
 }
 
+* {
+  box-sizing: border-box;
+}
+:root {
+  --primary-color: #ebdbca;
+  --secondary-color: #4D90FE;
+  background-color: black;
+}
+html {
+  transition: all 0.5s ease-in;
+}
+
+html.light {
+  --primary-color: #000;
+  --secondary-color: #4D90FE;
+  --secondary-color: #e74c3c;
+}
+
+html.light {
+  background-color: #ebdbca;
+  color: var(--primary-color);
+}
+
 body {
   font-family: 'Heebo', sans-serif;
   display: flex;
