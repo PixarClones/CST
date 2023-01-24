@@ -6,7 +6,7 @@
 
 :root {
   --primary-color: #fff;
-  --secondary-color: darkgrey;
+  --secondary-color: #ffff00;
   background-color: black;
 }
 
@@ -16,7 +16,7 @@ html {
 
 html.light {
   --primary-color: black;
-  --secondary-color: darkgrey;
+  --secondary-color: #ffff00;
 }
 
 html.light {
@@ -134,16 +134,4 @@ body {
   line-height: 18px;
   transition: all 0.5s ease-in;
   font-size: 12px;
-}
-
-.clockishere {
-  margin: 5 5 5 5;
-}
-
-.searchbarishere {
-  margin: 5 5 5 5;
-}
-
-.timerishere {
-  margin: 5 5 5 5;
 }
